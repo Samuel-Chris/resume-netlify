@@ -2,12 +2,11 @@
   "name": "resume",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./src/index.html",
     "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./src/index.html --out-dir build"
+    "build": "parcel build --public-url ./ ./src/index.html --dist-dir build"
   },
   "author": "",
   "license": "ISC",
