@@ -12,9 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "@popperjs/core": "^2.9.3",
+    "autoprefixer": "^10.3.1",
     "bootstrap": "^5.1.0"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
     "@parcel/transformer-sass": "^2.0.0-rc.0",
     "cssnano": "^5.0.8",
     "parcel": "^2.0.0-rc.0",
